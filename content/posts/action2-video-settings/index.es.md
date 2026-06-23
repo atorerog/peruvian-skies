@@ -28,7 +28,7 @@ Este post documenta mis settings de video para la DJI Action 2. Encontré dos aj
 
 La exposición en Auto es inconsistente y no me daba los resultados que quería para vuelos FPV de proximidad. Como la cámara se mueve constantemente entre cielo brillante y terreno oscuro, los cambios automáticos resultan en imágenes quemadas, zonas oscuras, y muy poco motion blur.
 
-Mis settings actuales:
+Mis settings actuales son:
 
 - **Velocidad de obturador:** Fija entre 1/60 y 1/80.
 - **ISO:** Rango bloqueado entre 100 y 400 (no fijo, no automático completo).
@@ -60,11 +60,11 @@ A 1/120, el terreno cercano se ve demasiado nítido y detallado. Entre 1/60 y 1/
 
 Ojo, esto solo funciona si la selección de ND es correcta. Un obturador más lento con el ND equivocado quema la imagen. Por eso la prueba previa al vuelo es crítica.
 
-## Poca estabilización
+## Una gota de estabilización
 
 Estabilizo en Gyroflow, nunca en la cámara. Pero la lección más importante fue cuánta smoothness aplicar a la estabilización.
 
-Los settings por defecto están en 50% de smoothness, pero para vuelos en proximidad eso es demasiado: se pierde la sensación de movimiento y camufla los reflejos del piloto que son interesantes en este tipo de footage. Al probar con otros settings, encontré que un smoothness de 5 y 15% se ajusta mejor a este estilo de vuelo:
+Los settings por defecto están en 50% de smoothness, pero para vuelos en proximidad eso es demasiado: se pierde la sensación de movimiento y camufla los reflejos del piloto que son únicos en este tipo de footage. Al probar con otros settings, encontré que un smoothness de 5 y 15% se ajusta mejor a este estilo de vuelo:
 
 	- 5%: corrige el wobble más visible. Lo mínimo necesario para filtrar algunas vibraciones del quad sin camuflar el stick input del piloto.
 	- 15%: un resultado más suave para tomas menos agresivas. Sirve para priorizar paisajes y es más habitual para un público general.

@@ -1,12 +1,16 @@
 ---
-title: "My video settings on the DJI Action 2 for proximity FPV in the Andes"
-date: 2026-06-22
+title: My video settings on the DJI Action 2 for proximity FPV in the Andes
+date: 2026-06-23
 draft: false
-tags: ["camera", "action2", "settings", "motion blur", "fpv"]
-summary: "No log profile, no 10-bit, but with the right settings the DJI Action 2 still delivers great footage for FPV. Here's what I actually use and why."
+tags:
+  - camera
+  - action2
+  - settings
+  - motion blur
+  - fpv
+summary: To capture the speed of the flight and the beauty of the landscape, my goal was to get a deep motion blur, decent exposure and wide FOV. To achieve that, my main decisions were breaking the 180° shutter rule and drastically reducing stabilization settings.
 ---
-
-The goal was simple: capture the speed of the flight and the beauty of the landscape. Motion blur, decent exposure, wide FOV. Getting there took some iterations.
+To capture the speed of the flight and the beauty of the landscape, my goal was to get a bold motion blur, decent exposure and wide FOV. Getting there took me some iterations.
 
 This post is a record of what settings I use to achieve that with the DJI Action 2. My main decisions were breaking the 180° shutter rule and drastically reducing stabilization settings.
 
@@ -21,12 +25,11 @@ This post is a record of what settings I use to achieve that with the DJI Action
 ![RAW Footage](images/motion-blur.gif)
 
 
-## The exposure problem: how I solved it
+## The exposure problem:
 
-Auto exposure is a trap for FPV proximity flight. The camera is constantly moving between 
-bright sky and dark terrain, and if you let it decide, you get no motion blur, blown highlights, and dark areas mid-flight.
+Auto exposure was inconsistent and didn't got me the results I wanted for this proximity flight style. Because the camera is constantly moving between bright sky and dark terrain, Auto settings result in minimal motion blur, blown highlights, and dark areas mid-flight.
 
-My current approach:
+My current approach is:
 
 - **Shutter speed:** Fixed at 1/60 or 1/80.
 - **ISO:** Range locked between 100 and 400 (not fixed, not full auto).
@@ -34,7 +37,7 @@ My current approach:
 
 ![Action 2 + TBS ND filters](images/action2_filter.jpg)
 
-### How I pick the ND filter
+### Picking the ND filter
 
 Before every flight or session I run a short test:
 
@@ -50,50 +53,50 @@ When the exposure meter is at or near 0 in both extremes, that's your ND.
 
 It takes two minutes and saves the whole flight.
 
-## Motion blur: the rule I broke
+##  Deep motion blur
 
-The standard rule for 60fps is 1/120 shutter (the 180° rule). For most 
-video work, that's correct. For FPV, I've found it's wrong.
+According to the 180° rule, the recommended standard for 60fps is 1/120 shutter speed. For most video work, that might work. But it didn't get me the results I wanted for FPV.
 
 At 1/120, close-up terrain still looks crispy and detailed rather than fluid. 
 Between 1/60 and 1/80, you get enough motion blur to make fast passes look natural, while still maintaining detail on slower shots and landscapes.
 
-This only works if your ND selection is correct. A slower shutter with the 
-wrong ND just blows the image. The test clip method above becomes critical 
+**This only works if your ND selection is correct.** A slower shutter with the 
+wrong ND just blows the image. The test method above becomes critical 
 here.
 
-## Gyroflow: less is more
+## Almost no stabilization
 
-I stabilize in Gyroflow, not in-camera. But the more important lesson was 
+I stabilize in Gyroflow, never in-camera. But the more important lesson was 
 how much stabilization to apply.
 
-Default settings are set at 50% smoothness. For proximity FPV flying that's too much: you remove the sense of movement that makes the footage worth watching. I use 5–15% depending on the flight style:
+Default settings are set at 50% smoothness. For proximity FPV flying that's too much: you remove the sense of movement and hide the pilot's response that makes this type of footage unique. While trying other settings, I found that 5–15% smoothness was the sweet spot:
 
-- **Smoothness: 5–15%**
-  - 5%: corrects the worst wobble, keeps the flying feel.
-  - 15%: smoother for slower cinematic passes.
+  - 5%: corrects the worst wobble and quad vibrations. Keeps the flying feel and stick input visible.
+  - 15%: smoother for less aggressive flights. Works for landscapes and suits better a general audience.
 
 ![Gyroflow settings at 5% smoothness](images/gyroflow.png)
 
 **My current settings:**
 
-| Parameter | Value |
-|---|---|
-| Smoothness | 5.0% |
-| Lock horizon | Off |
-| Dynamic zooming | On |
-| Zoom limit | 115% |
-| Zooming speed | 4.0s |
-| Lens correction | 100% |
-| Low pass filter | On — 50.00 Hz |
-| IMU orientation | XYZ |
-| Integration method | None |
-| Export codec | H.265/HEVC |
-| Output size | 4096 × 2304 |
-| Bitrate | 95 Mbps |
-| GPU encoding | On |
+| Parameter          | Value         |
+| ------------------ | ------------- |
+| Smoothness         | 5.0% - 15.0%  |
+| Lock horizon       | Off           |
+| Dynamic zooming    | On            |
+| Zoom limit         | 115%          |
+| Zooming speed      | 4.0s          |
+| Lens correction    | 100%          |
+| Low pass filter*   | On — 50.00 Hz |
+| IMU orientation    | XYZ           |
+| Integration method | None          |
+| Export codec       | H.265/HEVC    |
+| Output size        | 4096 × 2304   |
+| Bitrate            | 95 Mbps       |
+| GPU encoding       | On            |
+|                    |               |
+*\*Low pass filter is optional to remove some electric or mechanical noise the camera's gyro captures at some throttle levels
 
-*Everything else: default.*
+*Everything else remains in default settings.*
 
 ## Color grading in DaVinci Resolve
 
@@ -101,7 +104,7 @@ Not much to suggest here yet. I use D-Cinelike in the camera and DaVinci Resolve
 
 ## Results
 
-Here's a clip from the Peruvian Pacific coast with these settings applied:
+Here's a clip from the Peruvian Pacific coast with these settings applied (ND 16, 1/60 shutter speed, 5% stabilization, color grade in DaVinci):
 
 ![Result](images/output.gif)
 

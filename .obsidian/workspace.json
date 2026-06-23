@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f3b7b067b1281e6f",
+        "id": "fb56afc55135f048",
         "type": "tabs",
         "children": [
           {
-            "id": "8c5a44e2c1d5dd27",
+            "id": "1afece6f9c8bf444",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/action2-video-settings/index.es.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index.es"
+              "title": "New tab"
             }
           }
         ]
@@ -183,6 +179,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "8c5a44e2c1d5dd27",
-  "lastOpenFiles": []
+  "active": "1afece6f9c8bf444",
+  "lastOpenFiles": [
+    "content/posts/action2-video-settings/index.es.md",
+    "content/posts/action2-video-settings/index.md"
+  ]
 }

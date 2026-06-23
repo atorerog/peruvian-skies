@@ -25,3 +25,11 @@ theme = "PaperMod"
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/atorerog"
+
+  [languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.es]
+    languageName = "Español"
+    weight = 2

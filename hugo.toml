@@ -26,10 +26,12 @@ theme = "PaperMod"
   name = "github"
   url = "https://github.com/atorerog"
 
-  [languages]
+[languages]
   [languages.en]
     languageName = "English"
     weight = 1
+    contentDir = "content"
   [languages.es]
     languageName = "Español"
     weight = 2
+    contentDir = "content"

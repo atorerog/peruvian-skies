@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>How I tune video settings on the DJI Action 2 for mountain FPV | Peruvian skies</title>
-<meta name="keywords" content="camera, action2, settings, gyroflow, fpv">
-<meta name="description" content="No log profile, no 10-bit — but with the right settings the Action 2 still delivers great footage for FPV. Here&rsquo;s what I actually use and why.">
+<title>My video settings on the DJI Action 2 for proximity FPV in the Andes | Peruvian skies</title>
+<meta name="keywords" content="camera, action2, settings, motion blur, fpv">
+<meta name="description" content="To capture the speed of the flight and the beauty of the landscape, my goal was to get a deep motion blur, decent exposure and wide FOV. To achieve that, my main decisions were breaking the 180° shutter rule and drastically reducing stabilization settings.">
 <meta name="author" content="Alejandro Torero">
 <link rel="canonical" href="http://localhost:1313/peruvian-skies/posts/action2-video-settings/">
 <link crossorigin="anonymous" href="/peruvian-skies/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
@@ -19,6 +19,7 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" hreflang="en" href="http://localhost:1313/peruvian-skies/posts/action2-video-settings/">
+<link rel="alternate" hreflang="es" href="http://localhost:1313/peruvian-skies/es/posts/action2-video-settings/">
 <noscript>
     <style>
         #theme-toggle,
@@ -60,7 +61,13 @@
                         <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
-                </button>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="http://localhost:1313/peruvian-skies/es/" title="Español"
+                                aria-label="Español">Es</a>
+                        </li>
+                    </ul>
             </div>
         </div>
         <ul id="menu" class="menu">
@@ -73,67 +80,66 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      How I tune video settings on the DJI Action 2 for mountain FPV
+      My video settings on the DJI Action 2 for proximity FPV in the Andes
     </h1>
     <div class="post-meta">
 
-<span title='2026-06-22 00:00:00 +0000 UTC'>June 22, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>Alejandro Torero</span>
+<span title='2026-06-23 00:00:00 +0000 UTC'>June 23, 2026</span>&nbsp;·&nbsp;<span>4 min</span>&nbsp;·&nbsp;<span>Alejandro Torero</span>&nbsp;|&nbsp;<span>Translations:</span>
+    <ul class="i18n_list">
+        <li>
+            <a href="http://localhost:1313/peruvian-skies/es/posts/action2-video-settings/">Es</a>
+        </li>
+    </ul>
 
 </div>
   </header> 
-  <div class="post-content md-content"><p>The DJI Action 2 is not the newest camera on the market. But at 56 grams,
-4K 60fps in 4:3, and a wide FOV, it remains one of the most capable options
-for FPV flying without wrecking your weight budget. This post is not a review.
-It&rsquo;s a record of what settings I use, what I tried before, and what I learned
-the hard way.</p>
+  <div class="post-content md-content"><p>To capture the speed of the flight and the beauty of the landscape, my goal was to get a bold motion blur, decent exposure and wide FOV. Getting there took me some iterations.</p>
+<p>This post is a record of what settings I use to achieve that with the DJI Action 2. My main decisions were breaking the 180° shutter rule and drastically reducing stabilization settings.</p>
 <h2 id="base-settings">Base settings<a hidden class="anchor" aria-hidden="true" href="#base-settings">#</a></h2>
 <ul>
-<li><strong>Resolution:</strong> 4K 60fps, 4:3 format</li>
-<li><strong>FOV:</strong> Wide (not Ultra Wide) — this preserves gyroscope data for
-post-processing stabilization in Gyroflow</li>
-<li><strong>Color profile:</strong> D-Cinelike</li>
-<li><strong>White balance:</strong> AWB for now — still experimenting here</li>
-<li><strong>Stabilization:</strong> Minimal in-camera. Most of the work happens in Gyroflow.</li>
+<li><strong>Resolution:</strong> 4K 60fps, 4:3 format.</li>
+<li><strong>FOV:</strong> Wide (not Ultra Wide). This preserves gyroscope data for stabilization.</li>
+<li><strong>Color profile:</strong> D-Cinelike.</li>
+<li><strong>White balance:</strong> AWB for now (I am still experimenting here).</li>
+<li><strong>Stabilization:</strong> Turn OFF in-camera stabilization. Everything happens in Gyroflow.</li>
 </ul>
 <p><img alt="RAW Footage" loading="lazy" src="/peruvian-skies/posts/action2-video-settings/images/motion-blur.gif"></p>
-<h2 id="the-exposure-problem--and-how-i-solved-it">The exposure problem — and how I solved it<a hidden class="anchor" aria-hidden="true" href="#the-exposure-problem--and-how-i-solved-it">#</a></h2>
-<p>Auto exposure is a trap for FPV. The camera is constantly moving between
-bright sky and dark terrain, and if you let it decide, you get flickering
-and blown highlights mid-flight.</p>
-<p>My current approach:</p>
+<h2 id="the-exposure-problem">The exposure problem:<a hidden class="anchor" aria-hidden="true" href="#the-exposure-problem">#</a></h2>
+<p>Auto exposure was inconsistent and didn&rsquo;t got me the results I wanted for this proximity flight style. Because the camera is constantly moving between bright sky and dark terrain, Auto settings result in minimal motion blur, blown highlights, and dark areas mid-flight.</p>
+<p>My current approach is:</p>
 <ul>
-<li><strong>Shutter speed:</strong> Fixed at 1/80 or 1/100</li>
-<li><strong>ISO:</strong> Range locked between 100 and 400 (not fixed, not full auto)</li>
-<li><strong>ND filters:</strong> Essential — and chosen before each session</li>
+<li><strong>Shutter speed:</strong> Fixed at 1/60 or 1/80.</li>
+<li><strong>ISO:</strong> Range locked between 100 and 400 (not fixed, not full auto).</li>
+<li><strong>ND filters:</strong> Essential (and chosen before each flight or session).</li>
 </ul>
 <p><img alt="Action 2 + TBS ND filters" loading="lazy" src="/peruvian-skies/posts/action2-video-settings/images/action2_filter.jpg"></p>
-<h3 id="how-i-pick-the-nd-filter">How I pick the ND filter<a hidden class="anchor" aria-hidden="true" href="#how-i-pick-the-nd-filter">#</a></h3>
-<p>Before every session — or every flight if light conditions change — I shoot
-a short test clip. I point the camera at the sky, then at the ground or a
-dark surface. The goal: keep the exposure meter at or near 0 in both
-extremes. That&rsquo;s your ND.</p>
-<p>If the image blows out against the sky but looks correct on the ground, go
-one stop darker. If it underexposes in the shadows, go lighter. It takes
-two minutes and saves the whole flight.</p>
-<p><code>[PLACEHOLDER: frame sobreexpuesto vs frame correctamente expuesto,  lado a lado]</code></p>
-<h2 id="motion-blur--the-rule-i-broke">Motion blur — the rule I broke<a hidden class="anchor" aria-hidden="true" href="#motion-blur--the-rule-i-broke">#</a></h2>
-<p>The standard rule for 60fps is 1/120 shutter (the 180° rule). For most
-video work, that&rsquo;s correct. For FPV, I&rsquo;ve found it&rsquo;s wrong.</p>
-<p>At 1/120, fast maneuvers look choppy — you get too much definition on each
-frame and the motion reads as stuttery rather than fluid. At 1/80 or 1/100,
-you get enough motion blur to make fast passes look natural, while still
-maintaining detail on slower shots.</p>
-<p>This only works if your ND selection is correct. A slower shutter with the
-wrong ND just blows the image. The test clip method above becomes critical
+<h3 id="picking-the-nd-filter">Picking the ND filter<a hidden class="anchor" aria-hidden="true" href="#picking-the-nd-filter">#</a></h3>
+<p>Before every flight or session I run a short test:</p>
+<ol>
+<li>Choose an ND filter and configure the camera with your base settings.</li>
+<li>Point at the sky and check the exposure meter.</li>
+<li>Point at the ground or a dark surface and check the meter again.</li>
+<li>Goal: meter at or near 0 in both extremes.</li>
+<li>If it overexposes at the sky → higher ND.</li>
+<li>If it underexposes in the shadows → lower ND.</li>
+<li>If both happen → adjust ISO or shutter first, then repeat.</li>
+</ol>
+<p>When the exposure meter is at or near 0 in both extremes, that&rsquo;s your ND.</p>
+<p>It takes two minutes and saves the whole flight.</p>
+<h2 id="deep-motion-blur">Deep motion blur<a hidden class="anchor" aria-hidden="true" href="#deep-motion-blur">#</a></h2>
+<p>According to the 180° rule, the recommended standard for 60fps is 1/120 shutter speed. For most video work, that might work. But it didn&rsquo;t get me the results I wanted for FPV.</p>
+<p>At 1/120, close-up terrain still looks crispy and detailed rather than fluid.
+Between 1/60 and 1/80, you get enough motion blur to make fast passes look natural, while still maintaining detail on slower shots and landscapes.</p>
+<p><strong>This only works if your ND selection is correct.</strong> A slower shutter with the
+wrong ND just blows the image. The test method above becomes critical
 here.</p>
-<h2 id="gyroflow--less-is-more">Gyroflow — less is more<a hidden class="anchor" aria-hidden="true" href="#gyroflow--less-is-more">#</a></h2>
-<p>I stabilize in Gyroflow, not in-camera. But the more important lesson was
+<h2 id="almost-no-stabilization">Almost no stabilization<a hidden class="anchor" aria-hidden="true" href="#almost-no-stabilization">#</a></h2>
+<p>I stabilize in Gyroflow, never in-camera. But the more important lesson was
 how much stabilization to apply.</p>
-<p>Default settings are set at 50% smoothness. For proximity FPV flying that&rsquo;s too much: you remove the sense of movement that makes the footage worth watching. I use 5–15% depending on the flight style:</p>
+<p>Default settings are set at 50% smoothness. For proximity FPV flying that&rsquo;s too much: you remove the sense of movement and hide the pilot&rsquo;s response that makes this type of footage unique. While trying other settings, I found that 5–15% smoothness was the sweet spot:</p>
 <ul>
-<li><strong>Smoothness:</strong></li>
-<li>At 5%: corrects the worst wobble, keeps the flying feel</li>
-<li>At 15%: smoother for slower passes</li>
+<li>5%: corrects the worst wobble and quad vibrations. Keeps the flying feel and stick input visible.</li>
+<li>15%: smoother for less aggressive flights. Works for landscapes and suits better a general audience.</li>
 </ul>
 <p><img alt="Gyroflow settings at 5% smoothness" loading="lazy" src="/peruvian-skies/posts/action2-video-settings/images/Gyroflow.png"></p>
 <p><strong>My current settings:</strong></p>
@@ -147,7 +153,7 @@ how much stabilization to apply.</p>
 	<tbody>
 			<tr>
 					<td>Smoothness</td>
-					<td>5.0%</td>
+					<td>5.0% - 15.0%</td>
 			</tr>
 			<tr>
 					<td>Lock horizon</td>
@@ -170,7 +176,7 @@ how much stabilization to apply.</p>
 					<td>100%</td>
 			</tr>
 			<tr>
-					<td>Low pass filter</td>
+					<td>Low pass filter*</td>
 					<td>On — 50.00 Hz</td>
 			</tr>
 			<tr>
@@ -197,23 +203,31 @@ how much stabilization to apply.</p>
 					<td>GPU encoding</td>
 					<td>On</td>
 			</tr>
+			<tr>
+					<td></td>
+					<td></td>
+			</tr>
+			<tr>
+					<td>**Low pass filter is optional to remove some electric or mechanical noise the camera&rsquo;s gyro captures at some throttle levels</td>
+					<td></td>
+			</tr>
 	</tbody>
 </table>
-<p><em>Everything else: default.</em></p>
+<p><em>Everything else remains in default settings.</em></p>
 <h2 id="color-grading-in-davinci-resolve">Color grading in DaVinci Resolve<a hidden class="anchor" aria-hidden="true" href="#color-grading-in-davinci-resolve">#</a></h2>
-<p>Not much to suggest here: D-Cinelike. DaVinci Resolve.
-This is still an area I&rsquo;m actively developing and learning.
-I&rsquo;ll document this separately once I have something replicable.</p>
+<p>Not much to suggest here yet. I use D-Cinelike in the camera and DaVinci Resolve for color grading. This is still an area I&rsquo;m actively developing and learning. I&rsquo;ll document this separately once I have something replicable.</p>
 <h2 id="results">Results<a hidden class="anchor" aria-hidden="true" href="#results">#</a></h2>
+<p>Here&rsquo;s a clip from the Peruvian Pacific coast with these settings applied (ND 16, 1/60 shutter speed, 5% stabilization, color grade in DaVinci):</p>
 <p><img alt="Result" loading="lazy" src="/peruvian-skies/posts/action2-video-settings/images/output.gif"></p>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/MYRd_c3luvw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
 		</div>
 
 <hr>
-<p><em>These settings work for cliff flying in the Peruvian Pacific coast: bright
-midday sun, high contrast terrain, and altitudes at sea level. Your
-conditions may vary.</em></p>
+<p><em>These settings were developed flying the Peruvian Pacific coast:
+bright midday sun, high contrast terrain, sea level altitude.
+Other conditions will require different ND choices,
+but the logic is the same.</em></p>
 
 
   </div>
@@ -223,7 +237,7 @@ conditions may vary.</em></p>
       <li><a href="http://localhost:1313/peruvian-skies/tags/camera/">Camera</a></li>
       <li><a href="http://localhost:1313/peruvian-skies/tags/action2/">Action2</a></li>
       <li><a href="http://localhost:1313/peruvian-skies/tags/settings/">Settings</a></li>
-      <li><a href="http://localhost:1313/peruvian-skies/tags/gyroflow/">Gyroflow</a></li>
+      <li><a href="http://localhost:1313/peruvian-skies/tags/motion-blur/">Motion Blur</a></li>
       <li><a href="http://localhost:1313/peruvian-skies/tags/fpv/">Fpv</a></li>
     </ul>
   </footer>

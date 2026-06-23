@@ -66,8 +66,8 @@ Estabilizo en Gyroflow, nunca en la cámara. Pero la lección más importante fu
 
 Los settings por defecto están en 50% de smoothness, pero para vuelos en proximidad eso es demasiado: se pierde la sensación de movimiento y camufla los reflejos del piloto que son únicos en este tipo de footage. Al probar con otros settings, encontré que un smoothness de 5 y 15% se ajusta mejor a este estilo de vuelo:
 
-	- 5%: corrige el wobble más visible. Lo mínimo necesario para filtrar algunas vibraciones del quad sin camuflar el stick input del piloto.
-	- 15%: un resultado más suave para tomas menos agresivas. Sirve para priorizar paisajes y es más habitual para un público general.
+- 5%: corrige el wobble más visible. Lo mínimo necesario para filtrar algunas vibraciones del quad sin camuflar el stick input del piloto.
+- 15%: un resultado más suave para tomas menos agresivas. Sirve para priorizar paisajes y es más habitual para un público general.
 
 ![Settings de Gyroflow al 5% de smoothness](images/gyroflow.png)
 

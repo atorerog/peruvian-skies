@@ -6,14 +6,14 @@
     <description>Recent content in Camera on Peruvian skies</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/peruvian-skies/tags/camera/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How I tune video settings on the DJI Action 2 for mountain FPV</title>
+      <title>My video settings on the DJI Action 2 for proximity FPV in the Andes</title>
       <link>http://localhost:1313/peruvian-skies/posts/action2-video-settings/</link>
-      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/peruvian-skies/posts/action2-video-settings/</guid>
-      <description>No log profile, no 10-bit — but with the right settings the Action 2 still delivers great footage for FPV. Here&amp;rsquo;s what I actually use and why.</description>
+      <description>To capture the speed of the flight and the beauty of the landscape, my goal was to get a deep motion blur, decent exposure and wide FOV. To achieve that, my main decisions were breaking the 180° shutter rule and drastically reducing stabilization settings.</description>
     </item>
   </channel>
 </rss>

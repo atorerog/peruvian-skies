@@ -1,34 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/peruvian-skies/tags/action2/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/peruvian-skies/tags/camera/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/peruvian-skies/tags/fpv/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/peruvian-skies/tags/gyroflow/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/peruvian-skies/posts/action2-video-settings/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/peruvian-skies/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/peruvian-skies/posts/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/peruvian-skies/tags/settings/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/peruvian-skies/tags/</loc>
-    <lastmod>2026-06-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/peruvian-skies/categories/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+		<sitemap>
+			<loc>http://localhost:1313/peruvian-skies/en/sitemap.xml</loc>
+			
+				<lastmod>2026-06-23T00:00:00+00:00</lastmod>
+			
+		</sitemap>
+	
+		<sitemap>
+			<loc>http://localhost:1313/peruvian-skies/es/sitemap.xml</loc>
+			
+				<lastmod>2026-06-23T00:00:00+00:00</lastmod>
+			
+		</sitemap>
+	
+</sitemapindex>

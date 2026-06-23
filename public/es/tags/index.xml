@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Peruvian skies</title>
+    <link>http://localhost:1313/peruvian-skies/es/tags/</link>
+    <description>Recent content in Tags on Peruvian skies</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/peruvian-skies/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Action2</title>
+      <link>http://localhost:1313/peruvian-skies/es/tags/action2/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/peruvian-skies/es/tags/action2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ajustes</title>
+      <link>http://localhost:1313/peruvian-skies/es/tags/ajustes/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/peruvian-skies/es/tags/ajustes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Camara</title>
+      <link>http://localhost:1313/peruvian-skies/es/tags/camara/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/peruvian-skies/es/tags/camara/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fpv</title>
+      <link>http://localhost:1313/peruvian-skies/es/tags/fpv/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/peruvian-skies/es/tags/fpv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Motion Blur</title>
+      <link>http://localhost:1313/peruvian-skies/es/tags/motion-blur/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/peruvian-skies/es/tags/motion-blur/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

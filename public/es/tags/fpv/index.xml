@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fpv on Peruvian skies</title>
+    <link>http://localhost:1313/peruvian-skies/es/tags/fpv/</link>
+    <description>Recent content in Fpv on Peruvian skies</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/peruvian-skies/es/tags/fpv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mis settings de video en la DJI Action 2 para vuelos de proximidad FPV</title>
+      <link>http://localhost:1313/peruvian-skies/es/posts/action2-video-settings/</link>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/peruvian-skies/es/posts/action2-video-settings/</guid>
+      <description>Para capturar la velocidad del vuelo y la belleza del paisaje, quería lograr un motion blur profundo, una exposición equilibrada y un field of view amplio. Para lograrlo, uso dos ajustes clave: ignorar la regla del obturador a 180° y reducir drásticamente la estabilización.</description>
+    </item>
+  </channel>
+</rss>

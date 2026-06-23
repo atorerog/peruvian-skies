@@ -1,0 +1,27 @@
+baseURL = "https://atorerog.github.io/peruvian-skies/"
+languageCode = "en-us"
+title = "Peruvian skies"
+theme = "PaperMod"
+
+[params]
+  description = "Open builds for flying and exploring in the Pacific Andes"
+  author = "Alejandro Torero"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "dark"
+
+[params.homeInfoParams]
+  Title = "Peruvian skies"
+  Content = "Open builds for flying and exploring in the Pacific Andes"
+
+[[params.socialIcons]]
+  name = "youtube"
+  url = "https://youtube.com/@peruvian_skies"
+
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://instagram.com/peruvianskies_"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/atorerog"

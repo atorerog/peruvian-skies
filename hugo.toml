@@ -1,5 +1,5 @@
 baseURL = "https://atorerog.github.io/peruvian-skies/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Peruvian skies"
 theme = "PaperMod"
 

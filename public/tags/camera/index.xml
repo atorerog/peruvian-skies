@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Camera on Peruvian skies</title>
+    <link>http://localhost:1313/peruvian-skies/tags/camera/</link>
+    <description>Recent content in Camera on Peruvian skies</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/peruvian-skies/tags/camera/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I tune video settings on the DJI Action 2 for mountain FPV</title>
+      <link>http://localhost:1313/peruvian-skies/posts/action2-video-settings/</link>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/peruvian-skies/posts/action2-video-settings/</guid>
+      <description>No log profile, no 10-bit — but with the right settings the Action 2 still delivers great footage for FPV. Here&amp;rsquo;s what I actually use and why.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><script src="/peruvian-skies/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=peruvian-skies/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>How I tune video settings on the DJI Action 2 for mountain FPV | Peruvian skies</title>
+<meta name="keywords" content="camera, action2, settings, gyroflow, fpv">
+<meta name="description" content="No log profile, no 10-bit — but with the right settings the Action 2 still delivers great footage for FPV. Here&rsquo;s what I actually use and why.">
+<meta name="author" content="Alejandro Torero">
+<link rel="canonical" href="http://localhost:1313/peruvian-skies/posts/action2-video-settings/">
+<link crossorigin="anonymous" href="/peruvian-skies/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/peruvian-skies/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/peruvian-skies/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/peruvian-skies/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/peruvian-skies/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/peruvian-skies/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/peruvian-skies/posts/action2-video-settings/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/peruvian-skies/" accesskey="h" title="Peruvian skies (Alt + H)">Peruvian skies</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      How I tune video settings on the DJI Action 2 for mountain FPV
+    </h1>
+    <div class="post-meta">
+
+<span title='2026-06-22 00:00:00 +0000 UTC'>June 22, 2026</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>Alejandro Torero</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p>The DJI Action 2 is not the newest camera on the market. But at 56 grams,
+4K 60fps in 4:3, and a wide FOV, it remains one of the most capable options
+for FPV flying without wrecking your weight budget. This post is not a review.
+It&rsquo;s a record of what settings I use, what I tried before, and what I learned
+the hard way.</p>
+<h2 id="base-settings">Base settings<a hidden class="anchor" aria-hidden="true" href="#base-settings">#</a></h2>
+<ul>
+<li><strong>Resolution:</strong> 4K 60fps, 4:3 format</li>
+<li><strong>FOV:</strong> Wide (not Ultra Wide) — this preserves gyroscope data for
+post-processing stabilization in Gyroflow</li>
+<li><strong>Color profile:</strong> D-Cinelike</li>
+<li><strong>White balance:</strong> AWB for now — still experimenting here</li>
+<li><strong>Stabilization:</strong> Minimal in-camera. Most of the work happens in Gyroflow.</li>
+</ul>
+<p><img alt="RAW Footage" loading="lazy" src="/peruvian-skies/posts/action2-video-settings/images/motion-blur.gif"></p>
+<h2 id="the-exposure-problem--and-how-i-solved-it">The exposure problem — and how I solved it<a hidden class="anchor" aria-hidden="true" href="#the-exposure-problem--and-how-i-solved-it">#</a></h2>
+<p>Auto exposure is a trap for FPV. The camera is constantly moving between
+bright sky and dark terrain, and if you let it decide, you get flickering
+and blown highlights mid-flight.</p>
+<p>My current approach:</p>
+<ul>
+<li><strong>Shutter speed:</strong> Fixed at 1/80 or 1/100</li>
+<li><strong>ISO:</strong> Range locked between 100 and 400 (not fixed, not full auto)</li>
+<li><strong>ND filters:</strong> Essential — and chosen before each session</li>
+</ul>
+<p><img alt="Action 2 + TBS ND filters" loading="lazy" src="/peruvian-skies/posts/action2-video-settings/images/action2_filter.jpg"></p>
+<h3 id="how-i-pick-the-nd-filter">How I pick the ND filter<a hidden class="anchor" aria-hidden="true" href="#how-i-pick-the-nd-filter">#</a></h3>
+<p>Before every session — or every flight if light conditions change — I shoot
+a short test clip. I point the camera at the sky, then at the ground or a
+dark surface. The goal: keep the exposure meter at or near 0 in both
+extremes. That&rsquo;s your ND.</p>
+<p>If the image blows out against the sky but looks correct on the ground, go
+one stop darker. If it underexposes in the shadows, go lighter. It takes
+two minutes and saves the whole flight.</p>
+<p><code>[PLACEHOLDER: frame sobreexpuesto vs frame correctamente expuesto,  lado a lado]</code></p>
+<h2 id="motion-blur--the-rule-i-broke">Motion blur — the rule I broke<a hidden class="anchor" aria-hidden="true" href="#motion-blur--the-rule-i-broke">#</a></h2>
+<p>The standard rule for 60fps is 1/120 shutter (the 180° rule). For most
+video work, that&rsquo;s correct. For FPV, I&rsquo;ve found it&rsquo;s wrong.</p>
+<p>At 1/120, fast maneuvers look choppy — you get too much definition on each
+frame and the motion reads as stuttery rather than fluid. At 1/80 or 1/100,
+you get enough motion blur to make fast passes look natural, while still
+maintaining detail on slower shots.</p>
+<p>This only works if your ND selection is correct. A slower shutter with the
+wrong ND just blows the image. The test clip method above becomes critical
+here.</p>
+<h2 id="gyroflow--less-is-more">Gyroflow — less is more<a hidden class="anchor" aria-hidden="true" href="#gyroflow--less-is-more">#</a></h2>
+<p>I stabilize in Gyroflow, not in-camera. But the more important lesson was
+how much stabilization to apply.</p>
+<p>Default settings are set at 50% smoothness. For proximity FPV flying that&rsquo;s too much: you remove the sense of movement that makes the footage worth watching. I use 5–15% depending on the flight style:</p>
+<ul>
+<li><strong>Smoothness:</strong></li>
+<li>At 5%: corrects the worst wobble, keeps the flying feel</li>
+<li>At 15%: smoother for slower passes</li>
+</ul>
+<p><img alt="Gyroflow settings at 5% smoothness" loading="lazy" src="/peruvian-skies/posts/action2-video-settings/images/Gyroflow.png"></p>
+<p><strong>My current settings:</strong></p>
+<table>
+	<thead>
+			<tr>
+					<th>Parameter</th>
+					<th>Value</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Smoothness</td>
+					<td>5.0%</td>
+			</tr>
+			<tr>
+					<td>Lock horizon</td>
+					<td>Off</td>
+			</tr>
+			<tr>
+					<td>Dynamic zooming</td>
+					<td>On</td>
+			</tr>
+			<tr>
+					<td>Zoom limit</td>
+					<td>115%</td>
+			</tr>
+			<tr>
+					<td>Zooming speed</td>
+					<td>4.0s</td>
+			</tr>
+			<tr>
+					<td>Lens correction</td>
+					<td>100%</td>
+			</tr>
+			<tr>
+					<td>Low pass filter</td>
+					<td>On — 50.00 Hz</td>
+			</tr>
+			<tr>
+					<td>IMU orientation</td>
+					<td>XYZ</td>
+			</tr>
+			<tr>
+					<td>Integration method</td>
+					<td>None</td>
+			</tr>
+			<tr>
+					<td>Export codec</td>
+					<td>H.265/HEVC</td>
+			</tr>
+			<tr>
+					<td>Output size</td>
+					<td>4096 × 2304</td>
+			</tr>
+			<tr>
+					<td>Bitrate</td>
+					<td>95 Mbps</td>
+			</tr>
+			<tr>
+					<td>GPU encoding</td>
+					<td>On</td>
+			</tr>
+	</tbody>
+</table>
+<p><em>Everything else: default.</em></p>
+<h2 id="color-grading-in-davinci-resolve">Color grading in DaVinci Resolve<a hidden class="anchor" aria-hidden="true" href="#color-grading-in-davinci-resolve">#</a></h2>
+<p>Not much to suggest here: D-Cinelike. DaVinci Resolve.
+This is still an area I&rsquo;m actively developing and learning.
+I&rsquo;ll document this separately once I have something replicable.</p>
+<h2 id="results">Results<a hidden class="anchor" aria-hidden="true" href="#results">#</a></h2>
+<p><img alt="Result" loading="lazy" src="/peruvian-skies/posts/action2-video-settings/images/output.gif"></p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/MYRd_c3luvw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+		</div>
+
+<hr>
+<p><em>These settings work for cliff flying in the Peruvian Pacific coast: bright
+midday sun, high contrast terrain, and altitudes at sea level. Your
+conditions may vary.</em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/peruvian-skies/tags/camera/">Camera</a></li>
+      <li><a href="http://localhost:1313/peruvian-skies/tags/action2/">Action2</a></li>
+      <li><a href="http://localhost:1313/peruvian-skies/tags/settings/">Settings</a></li>
+      <li><a href="http://localhost:1313/peruvian-skies/tags/gyroflow/">Gyroflow</a></li>
+      <li><a href="http://localhost:1313/peruvian-skies/tags/fpv/">Fpv</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/peruvian-skies/">Peruvian skies</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
